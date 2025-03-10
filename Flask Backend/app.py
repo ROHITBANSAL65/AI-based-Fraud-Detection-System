@@ -168,14 +168,12 @@ class AadhaarVerificationSystem:
 
                 uid_score = fuzz.ratio(uid_cleaned, excel_uid_cleaned)
 
-                if extracted_name != "N/A" and extracted_address:
-                    overall_score = (name_score + address_score + uid_score) / 3
-                elif extracted_name != "N/A":
-                    overall_score = (name_score + uid_score) / 2
-                elif extracted_address:
-                    overall_score = (address_score + uid_score) / 2
-                else:
-                    overall_score = uid_score
+                # Ensure all three components contribute to the overall score, even if one is missing
+                address_score = address_score if extracted_address else 0  # Default to 0 if address is missing
+
+                
+                overall_score = (name_score + uid_score + address_score) / 3
+
 
                 status = "Accepted" if overall_score >= 70 else "Rejected"
 
