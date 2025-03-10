@@ -11,7 +11,6 @@
 
 
 
-
 **Home Page Overview**
 
 **Key Features:**
@@ -33,15 +32,6 @@
     Upload Page – Submit Aadhaar-related documents for verification.
 
     Analytics Page – View insights and fraud detection statistics.
-
-![Screenshot 2025-02-14 001017](https://github.com/user-attachments/assets/6ad951ac-86d2-423e-938f-ddbef43f8e6d)
-
-
-![Screenshot 2025-02-14 001052](https://github.com/user-attachments/assets/7daaf070-3ba7-4f9a-af89-0d27dbbe4264)
-
-
-![Screenshot 2025-02-14 001113](https://github.com/user-attachments/assets/d6934a50-254b-4e34-9750-9200b6826e9a)
-
 
 **Upload Page Overview**
 
