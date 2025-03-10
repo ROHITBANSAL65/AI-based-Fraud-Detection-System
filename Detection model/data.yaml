@@ -1,6 +1,6 @@
-path: "C:/Users/DEIVA RAJA/Documents/Infosys_Training/Detection model"
-train: "C:/Users/DEIVA RAJA/Documents/Infosys_Training/Detection model/detection_dataset/images/train"
-val: "C:/Users/DEIVA RAJA/Documents/Infosys_Training/Detection model/detection_dataset/images/val"
+path: "C:/Users/ROHIT BANSAL/Documents/Infosys_Training/Detection model"
+train: "C:/Users/ROHIT BANSAL/Documents/Infosys_Training/Detection model/detection_dataset/images/train"
+val: "C:/Users/ROHIT BANSAL/Documents/Infosys_Training/Detection model/detection_dataset/images/val"
 
 names:
   0: name
