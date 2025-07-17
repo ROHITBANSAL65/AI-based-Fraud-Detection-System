@@ -9,3 +9,7 @@ fuzzywuzzy
 python-Levenshtein
 psycopg2-binary
 gunicorn
+opencv-python
+scikit-learn
+pytesseract
+openpyxl
